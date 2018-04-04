@@ -12,11 +12,16 @@ struct-init scaffold-react my-project
 
 ### How to use
 
+* view template list
+
+```
+struct list
+```
+
 * add template
 
 ```
 struct add
-
 ```
 
 * delete template
@@ -25,8 +30,3 @@ struct add
 struct delete
 ```
 
-* view template list
-
-```
-struct list
-```
