@@ -12,16 +12,10 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "commander": "^2.15.1",
-    "download-git-repo": "^1.0.2",
     "fs": "0.0.1-security",
-    "git-clone": "^0.1.0",
     "inquirer": "^5.2.0",
-    "metalsmith": "^2.3.0",
     "ora": "^2.0.0",
-    "path": "^0.12.7",
-    "rm": "^0.1.8",
-    "save": "^2.3.2",
-    "shelljs": "^0.8.1"
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -31,7 +25,11 @@
   "keywords": [
     "react",
     "redux",
-    "antd"
+    "antd",
+    "scaffold",
+    "cli",
+    "init",
+    "template"
   ],
   "repository": {
     "type": "git",

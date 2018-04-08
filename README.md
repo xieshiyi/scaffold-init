@@ -7,7 +7,7 @@ npm install -g scaffold-init
 
 yarn global add scaffold-init
 
-struct-init scaffold-react my-project
+struct-init template my-project
 ```
 
 ### How to use
