@@ -48,8 +48,9 @@ function run () {
     let gitUrl = tplJson[template].gitUrl;
     let projectName = tplJson[template].name;
     let branch = tplJson[template].branch;
-    //&& cd ${projectName} && git checkout ${branch} //可以直接进行切换分支
-    let cmdStr = `git clone ${gitUrl} ${dir} && cd ${dir} && git checkout ${branch}`
+    //&& cd ${projectName} && git checkout ${branch} //可以直接进行切换分支  
+    //先不带任何git内容，就单纯的下载项目结构
+    let cmdStr = `git clone ${gitUrl} ${dir} && cd ${dir} && rm .git`
     // let cmsStr = `npm i ${tplJson[template].npm} `;
     exec(cmdStr, (err, data) => {
         spinner.stop();

@@ -1,39 +1,47 @@
 {
-    "name": "scaffold-init",
-    "version": "1.1.0",
-    "description": "scaffold start-kit for react",
-    "bin": {
-        "struct": "bin/struct",
-        "struct-init": "bin/struct-init"
-    },
-    "directories": {
-        "lib": "lib"
-    },
-    "dependencies": {
-        "chalk": "^2.3.2",
-        "commander": "^2.15.1",
-        "download-git-repo": "^1.0.2",
-        "fs": "0.0.1-security",
-        "git-clone": "^0.1.0",
-        "inquirer": "^5.2.0",
-        "metalsmith": "^2.3.0",
-        "ora": "^2.0.0",
-        "path": "^0.12.7",
-        "rm": "^0.1.8",
-        "save": "^2.3.2",
-        "shelljs": "^0.8.1"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "start": "node bin/scaffold-init",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "react",
-        "redux",
-        "antd"
-    ],
-    "repository": "https://github.com/xieshiyi/scaffold-init",
-    "author": "xieshiyi",
-    "license": "ISC"
+  "name": "scaffold-init",
+  "version": "1.1.0",
+  "description": "scaffold start-kit for react",
+  "bin": {
+    "struct": "bin/struct",
+    "struct-init": "bin/struct-init"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "fs": "0.0.1-security",
+    "git-clone": "^0.1.0",
+    "inquirer": "^5.2.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^2.0.0",
+    "path": "^0.12.7",
+    "rm": "^0.1.8",
+    "save": "^2.3.2",
+    "shelljs": "^0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bin/scaffold-init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "antd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieshiyi/scaffold-init.git"
+  },
+  "author": "xieshiyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieshiyi/scaffold-init/issues"
+  },
+  "homepage": "https://github.com/xieshiyi/scaffold-init#readme",
+  "main": "index.js"
 }
