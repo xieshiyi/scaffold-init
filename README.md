@@ -3,9 +3,9 @@
 ### Quickstart
 
 ```
-npm install -g scaffold-cli
+npm install -g scaffold-init
 
-yarn global add scaffold-cli
+yarn global add scaffold-init
 
 struct-init scaffold-react my-project
 ```
