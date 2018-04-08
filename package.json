@@ -1,9 +1,10 @@
 {
   "name": "scaffold-init",
-  "version": "1.2.0",
+  "version": "1.1.5",
   "description": "scaffold start-kit for react",
   "bin": {
-    "struct": "bin/struct"
+    "struct": "bin/struct",
+    "struct-init": "bin/struct-init"
   },
   "directories": {
     "lib": "lib"

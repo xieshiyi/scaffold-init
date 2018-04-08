@@ -15,7 +15,6 @@ program.on('--help', function () {
   console.log()
   console.log(chalk.yellow('    # 使用npm模板创建'))
   console.log('    $ struct-init template-name my-project')
-  // console.log('    $ struct-init webpack my-project')
   console.log()
 });
 // init 命令的帮助文档
@@ -51,31 +50,12 @@ function run () {
     //&& cd ${projectName} && git checkout ${branch} //可以直接进行切换分支  
     //先不带任何git内容，就单纯的下载项目结构
     let cmdStr = `git clone ${gitUrl} ${dir} && cd ${dir} && rm -rf .git`
-    // let cmsStr = `npm i ${tplJson[template].npm} `;
     exec(cmdStr, (err, data) => {
         spinner.stop();
-        // process.on('exit', () => {
-        //     rm(`${process.cwd()}/node_modules`)
-        // })
         if (err) {
             console.log(chalk.red('模板下载失败 ', err.message));
         }
         console.log(chalk.yellow(' \n 项目已创建'));
-        // const tplPath = `${process.cwd()}/node_modules/${tplJson[template].npm}`;
-        // const opts = require(`${tplPath}/meta`);
-        // const projectPath = `${process.cwd()}/${dir}`;
-
-        // 生成新项目
-
-        // Metalsmith(`${tplPath}/template`)
-        //     .source('.')
-        //     .destination(`${projectPath}`)
-        //     .build(function(err) {
-        //         if (err) {
-        //             console.log(chalk.red('项目生成失败', err));
-        //         }
-        //         console.log(chalk.yellow(' \n 项目已创建'));
-        //     })
     });
 }
 run();

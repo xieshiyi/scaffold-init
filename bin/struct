@@ -22,22 +22,5 @@ program
     .alias('d')
     .description('删除模板')
     .action(require('../lib/delete'));
-program
-    .command('init')
-    .alias('i')
-    .description('初始化项目')
-    .action(require('../lib/init'));
-
-program
-    .command('help')
-    .alias('h')
-    .description('帮助说明')
-    .action(require('../lib/help'));
 
 program.parse(process.argv);
-if (program.args.length < 1){
-  require('../lib/help')()
-}
-if (program.args.length == 2){
-  require('../lib/init')()
-}
