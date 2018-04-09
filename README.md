@@ -39,11 +39,15 @@ struct delete
 ### 快速开始
 ```
 安装
+
 npm install -g scaffold-init
+
 或
+
 yarn global add scaffold-init
 
-template：模板名称  my-project：创建的项目名称
+// 利用模板初始化项目，template：模板名称  my-project：创建的项目名称
+
 struct-init template my-project
 ```
 
