@@ -36,19 +36,12 @@ struct delete
 
 ## 简易前端框架
 
-### 快速开始
-```
-安装
+### 安装
 
+```
 npm install -g scaffold-init
 
-或
-
 yarn global add scaffold-init
-
-// 利用模板初始化项目，template：模板名称  my-project：创建的项目名称
-
-struct-init template my-project
 ```
 
 ### 如何使用
@@ -69,6 +62,12 @@ struct add
 
 ```
 struct delete
+```
+
+* 利用模板初始化项目，template：模板名称  my-project：创建的项目名称
+
+```
+struct-init template my-project
 ```
 
 *注：此项目暂时只支持Git仓库项目作为模板，前端小白，请多指教！*
