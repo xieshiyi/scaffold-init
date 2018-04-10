@@ -1,4 +1,6 @@
-## simple FE scaffold
+## scaffold-init
+[![build-status](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/xieshiyi/scaffold-init)    [![npm (custom registry)](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/scaffold-init)
+
 
 ### Quickstart
 
