@@ -3,19 +3,18 @@ jobs:
   build:
     docker:
       - image: debian:stretch
-    working_directory: ./bin
     steps:
       - checkout
       - run: yarn install
       - run:
           name: scaffold-init
-          command: node struct-init scaffold-react test
+          command: cd bin && node struct-init scaffold-react test
       - run:
           name: add template
-          command: node struct add
+          command: cd bin && node struct add
       - run:
           name: delete template
-          command: node struct delete
+          command: cd bin && node struct delete
       - run:
           name: list template
-          command: node struct list
+          command: cd bin && node struct list
