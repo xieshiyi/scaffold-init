@@ -19,6 +19,3 @@ jobs:
       - run:
           name: list template
           command: node struct list
-      - save_cache:
-          paths:
-            - node_modules
