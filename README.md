@@ -1,5 +1,5 @@
 ## scaffold-init
-[![build-status](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/xieshiyi/scaffold-init)    [![npm (custom registry)](https://img.shields.io/npm/v/scaffold-init.svg)](https://www.npmjs.com/package/scaffold-init)
+[![build-status](https://img.shields.io/circleci/project/github/xieshiyi/scaffold-init.svg)](https://circleci.com/gh/xieshiyi/scaffold-init)    [![npm (custom registry)](https://img.shields.io/npm/v/scaffold-init.svg)](https://www.npmjs.com/package/scaffold-init)
 
 
 ### Quickstart
