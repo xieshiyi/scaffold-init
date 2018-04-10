@@ -19,7 +19,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bin/scaffold-init",
+    "start": "cd bin && node struct-init",
     "test": "cd bin && node struct-init scaffold-react test"
   },
   "keywords": [
