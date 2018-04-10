@@ -20,7 +20,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node bin/scaffold-init",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd bin && node struct-init scaffold-react test"
   },
   "keywords": [
     "react",

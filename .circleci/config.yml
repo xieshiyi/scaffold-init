@@ -8,13 +8,4 @@ jobs:
       - run: yarn install
       - run:
           name: scaffold-init
-          command: cd bin && node struct-init scaffold-react test
-      - run:
-          name: add template
-          command: cd bin && node struct add
-      - run:
-          name: delete template
-          command: cd bin && node struct delete
-      - run:
-          name: list template
-          command: cd bin && node struct list
+          command: yarn test
